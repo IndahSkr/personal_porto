@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gideon Roman', cursive;
+    line-height: 1.5;
+    color: #1E212D;
+    background-color: #FAF3E0;
+}
+
+nav {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    background: #B68973;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-list li:hover {
+    background: #EABF9F;
+}
+
+.nav-list a {
+    display: block;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1E212D;
+}
+
+#welcome-section {
+    display: flex;
+}
+
+.image {
+    width: 200px;
+    border: 5px #EABF9F solid;
+    border-radius: 10px;
+    margin: 100px 150px 10px 150px;
+    padding: 5px;
+    flex: auto;
+}
+
+.identity {
+    padding: 10px;
+    margin: 150px 100px 50px 0px;
+    flex: auto;
+    text-align: center;
+}
+
+.identity h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 40px;
+}
+
+.education {
+    margin: 50px;
+    text-align: 1.5;
+    background: #E7D4B5;
+    border-radius: 10px;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.education h1 {
+    margin-top: 50px;
+}
+
+.school {
+    display: flex;
+}
+
+.uni,
+.sma {
+    flex: auto;
+    text-align: center;
+}
+
+.graduate {
+    font-size: 50px;
+    color: #B4846C;
+}
