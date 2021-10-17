@@ -102,3 +102,50 @@ a {
     font-size: 50px;
     color: #B4846C;
 }
+
+.work {
+    text-align: center;
+    padding: 50px 5px;
+}
+
+.work h1 {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #B4846C;
+    color: #B4846C;
+}
+
+.projects {
+    display: flex;
+}
+
+.project-tile {
+    margin: 0 15px;
+    border: 0.2rem solid #B4846C;
+}
+
+.project {
+    flex: auto;
+}
+
+.project-image {
+    width: 300px;
+}
+
+.project-title {
+    font-size: 24px;
+    color: #B4846C;
+    font-weight: bold;
+}
+
+.project-title:hover {
+    background: #EABF9F;
+}
+
+.contact {
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #B4846C;
+    margin-bottom: 50px;
+}
